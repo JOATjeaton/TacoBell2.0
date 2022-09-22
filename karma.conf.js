@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/taco-bell2.0'),
+      dir: require('path').join(__dirname, './coverage/hello-world-app'),
       subdir: '.',
       reporters: [
         { type: 'html' },

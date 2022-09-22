@@ -1,0 +1,10 @@
+a {
+    
+    background-color: rgb(126, 122, 122);
+    width: 180px;
+    border: 15px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 20px;
+    transform: skew(-20deg);
+    font-size: 15px;
+}
