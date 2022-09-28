@@ -1,5 +1,18 @@
 <app-topnavbar> Testing the top</app-topnavbar>
  <app-sidenavbar> Test the side</app-sidenavbar>
 <app-news-container>test</app-news-container>
-<app-card> kosdokdsa</app-card>
+
+
+<!--<app-card class = card card_img = "./assets/chalupaRewards.jpg" card_title="plsgodwork"
+button_phrase = "another one please"></app-card>-->
+
+<div *ngFor="let card of cards">
+    <app-card card_img={{card.card_img}} card_title={{card.card_title}}
+    card_msg={{card.card_msg}} button_phrase={{card.button_phrase}} subtext={{card.subtext}}
+    >loading</app-card>
+</div>
+
+
 <app-footer>lesgooo</app-footer>
+
+<!--<app-card-lab3></app-card-lab3> -->

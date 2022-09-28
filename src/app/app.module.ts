@@ -16,7 +16,7 @@ import { NewsContainerComponent } from './news-container/news-container.componen
     SidenavbarComponent,
     FooterComponent,
     CardComponent,
-    NewsContainerComponent
+    NewsContainerComponent,
   ],
   imports: [
     BrowserModule,
